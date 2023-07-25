@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.osby{
+    width: 100%;
+    min-height: 100vh;
+  background: rgb(236, 191, 148);
+color:crimson;
+}
+nav{
+    background: darkcyan;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    position: relative;
+}
+.logo{
+    width: 70px;
+    border-radius: 20%;
+    padding: 0.5em;
+}
+.user-pic{
+    width: 40px;
+    border-radius: 30%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+ul{
+    width: 100%;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ li a{
+    color: burlywood;
+text-decoration: none;
+}
+li a:hover{
+    border: 0.2em solid peachpuff;
+    padding: 0.5em;
+    border-radius: 50%;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: darkcyan;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h2{
+    font-weight: 3;
+}
+.user-info h2:hover{
+    background: burlywood;
+    color: darkcyan;
+    border-radius: 1em;
+    padding: 0.3em;
+}
+.user-info img{
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.sub-menu hr{
+    height: 1px;
+    width: 100%;
+    background: burlywood;
+    margin: 15px 0 10px;
+    border: 0;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: burlywood;
+    margin: 12px 0;
+}
+.sub-menu-link img{
+    width: 50px;
+    background: burlywood;
+    border-radius: 50%;
+    padding: 0.4em;
+    margin-right: 1em;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 10s;
+}
+.sub-menu-link:hover span{
+    transition: translateX(20px);
+}
+.sub-menu-link:hover p{
+    font-size: 800;
+}
+.about h2{
+    text-align: center;
+    text-decoration:underline ;
+    padding: 1em;
+}

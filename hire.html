@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hire.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="osby">
+    <nav>
+        <img src="logo.jpg" width="50px" class="logo">
+
+        <ul>
+            <li><a href="index.html"><img src="home.png"width=50px alt=""></a></li>
+        </ul>
+            <img src="images/app.png" width="50px" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="submenu">
+<div class="sub-menu">
+    <div class="user-info">
+        <img src="images/app.png">
+        <h2>Francis</h2>
+    </div>
+    <hr>
+    <a href="about.html" class="sub-menu-link">
+        <img src="logo.jpg" width="30px">
+        <p>About Francis kosi</p>
+        <span>></span>
+    </a>
+
+    <a href="service.html" class="sub-menu-link">
+        <img src="images/book-solid.svg" width="30px">
+        <p>My Services</p>
+        <span>></span>
+    </a>
+
+    <a href="skill.html" class="sub-menu-link">
+        <img src="images/briefcase-solid.svg" width="30px">
+        <p>My Skills</p>
+        <span>></span>
+    </a>
+
+    <a href="hire.html" class="sub-menu-link">
+        <img src="images/phone-solid.svg" width="30px">
+        <p>Hire Me</p>
+        <span>></span>
+    </a>
+</div>
+            </div>
+    </nav>
+      <p>Address:No 2 Harmony estate,rumurolu,woji,portharcourt</p>
+      <img src="gmail.png"width=40px alt=""><li><a href="mailto:franciskosi47@gmail.com">franciskosi47@gmail.com</a></li>
+      <img src="images/call_logo_-_Copy-removebg-preview.png"width=50px t=""><li><a href="">09160340123</a></li>
+      <img src="pngtree-whatsapp-icon-social-media-png-image_6618452.png"width=50px t=""><li><a href="https://wa.me/09160340123">09160340123</a></li>
+      <marquee behavior="" direction="">&copy;Thanks for your time,i apprieciate it.</marquee>
+   </div>
+   <script>
+    let subMenu = document.getElementById("submenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+   </script>
+   
+
+</body>
+</html>

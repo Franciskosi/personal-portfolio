@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="osby">
+    <nav>
+        <img src="logo.jpg" width="50px" class="logo">
+
+        <ul>
+            <li><a href="index.html"><img src="home.png"width=50px alt=""></a></li>
+        </ul>
+            <img src="images/app.png" width="50px" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="submenu">
+<div class="sub-menu">
+    <div class="user-info">
+        <img src="images/app.png">
+        <h2>Francis</h2>
+    </div>
+    <hr>
+    <a href="#" class="sub-menu-link">
+        <img src="logo.jpg" width="30px">
+        <p>About Francis kosi</p>
+        <span>></span>
+    </a>
+
+    <a href="service.html" class="sub-menu-link">
+        <img src="images/book-solid.svg" width="30px">
+        <p>My Services</p>
+        <span>></span>
+    </a>
+
+    <a href="skill.html" class="sub-menu-link">
+        <img src="images/briefcase-solid.svg" width="30px">
+        <p>My Skills</p>
+        <span>></span>
+    </a>
+
+    <a href="hire.html" class="sub-menu-link">
+        <img src="images/phone-solid.svg" width="30px">
+        <p>Hire Me</p>
+        <span>></span>
+    </a>
+</div>
+            </div>
+    </nav>
+    <div class="about">
+        <h2>About Me</h2>
+    <p>I'm Francis kosi,i'm a professional full-stack developer.I started my study as a full-stack
+         developer when i had finished my jurnior waec,i decided that i will like to start my training
+          early ,i would'nt say it was easy but i tried my best,any way thank you for picking intrest in my
+           work to email me ,firstly click on the home button then click on the HIRE ME button then you
+            click on "franciskosi47@gmail.com to send me an e-mail or click on the wats-app logo to send me a message and i will reply .Once again thanks.</p>
+    <marquee behavior="" direction="">&copy;Thanks for your time,i apprieciate it.</marquee>
+    
+    </div>
+   </div>
+   <script>
+    let subMenu = document.getElementById("submenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+   </script>
+
+
+</body>
+</html>
